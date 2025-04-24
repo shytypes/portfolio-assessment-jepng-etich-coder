@@ -16,22 +16,32 @@ body {
   font-size: 1rem;
   line-height: 2rem;
   text-align: justify;
- 
+}
+
+/* Mobile first */
+@media (max-width: 480px) {
+  /* styles for phones */
+
+  body {
+    background-color: blue;
+  }
+}
+
 img {
   width: 30%;
   width: 200px;
-  border: 0px solid black;
+  /* border: 1px solid black; */
 }
 .container-main {
-  margin-top: 20px;
-  border: 0px solid green;
+  /* margin-top: 20px;
+  border: 1px solid green; */
   padding: 100px 150px 100px 150px;
   border-radius: 2%;
   background-image: linear-gradient(-45deg, #7e47ff, #fff);
 }
 .container {
   /* max-width: 1440px; */
-  padding:3em;
+  padding: 3em;
   background-color: #fff;
 }
 
@@ -39,20 +49,22 @@ h1 {
   font-size: 1.5rem;
   margin: 2rem 0 0.5rem 0;
 }
-#intro {
+
+header,
+.section-iv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#intro-txt {
   line-height: 1.5rem;
 }
 #job-title {
   font-weight: bold;
   font-size: 2rem;
   line-height: 3rem;
-}
-
-header,
-.section-iv {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
 }
 
 .btn {
