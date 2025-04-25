@@ -15,5 +15,3 @@ _Flex box_
 _Unordered lists_
 Section iv: Hobbies
 Section iv: Skills
-
-Try to make it responsive
