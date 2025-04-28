@@ -96,4 +96,10 @@ input {
   border-radius: 5px;
   border: 1px solid black;
   width: 70%;
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  border: 1px solid #7e47ff;
+  background-color: #f0f0f0;
 }
