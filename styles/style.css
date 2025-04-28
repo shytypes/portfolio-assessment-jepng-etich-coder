@@ -14,40 +14,61 @@ body {
   margin: auto;
   font-family: 'JetBrains Mono', monospace;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-align: justify;
-}
-
-/* Mobile first */
-@media (max-width: 480px) {
-  /* styles for phones */
-
-  body {
-    background-color: blue;
-  }
 }
 
 img {
   width: 30%;
-  width: 200px;
+  width: 250px;
   /* border: 1px solid black; */
 }
+
+/* typography */
+h1 {
+  font-size: 1.5rem;
+  margin: 2rem 0 0.5rem 0;
+}
+
+#intro-txt {
+  line-height: 1.5rem;
+}
+
+#job-title {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0.5em 0 0.5em 0;
+}
+
+#connect-with-me {
+  text-decoration: underline;
+  color: black;
+}
+
+#connect-with-me:hover {
+  color: #7e47ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.outro {
+  margin: 2.5em 0 0.5em 0;
+  text-align: center;
+}
+
+/* header and main */
+
 .container-main {
-  /* margin-top: 20px;
-  border: 1px solid green; */
+  /*border: 1px solid green; */
   padding: 100px 150px 100px 150px;
   border-radius: 2%;
   background-image: linear-gradient(-45deg, #7e47ff, #fff);
 }
+
 .container {
-  /* max-width: 1440px; */
   padding: 3em;
   background-color: #fff;
-}
-
-h1 {
-  font-size: 1.5rem;
-  margin: 2rem 0 0.5rem 0;
 }
 
 header,
@@ -56,50 +77,4 @@ header,
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-#intro-txt {
-  line-height: 1.5rem;
-}
-#job-title {
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 3rem;
-}
-
-.btn {
-  margin-top: 2em;
-  padding: 0.5em;
-  border: 1px solid black;
-  background-color: black;
-  font-weight: bold;
-  color: #fff;
-}
-
-.btn:hover {
-  background-image: linear-gradient(-45deg, #7e47ff, #fff);
-  border: none;
-  color: black;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: right;
-  margin-top: 2em;
-}
-
-input {
-  padding: 0.5em;
-  margin: 0.5em 0;
-  border-radius: 5px;
-  border: 1px solid black;
-  width: 70%;
-  transition: all 0.3s ease-in-out;
-}
-
-input:hover {
-  border: 1px solid #7e47ff;
-  background-color: #f0f0f0;
 }
